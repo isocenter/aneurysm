@@ -2,6 +2,11 @@
   "name": "aneurysm",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isocenter/aneurysm.git"
+  },
   "scripts": {
     "dev": "mise exec node@25 -- next dev --turbopack --hostname 0.0.0.0",
     "build": "mise exec node@25 -- next build",
